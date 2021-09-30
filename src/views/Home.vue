@@ -1,18 +1,352 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    
+    <div class="wrapper">
+      <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@700;900&display=swap" rel="stylesheet">    <title>lions</title>
+    <link rel="stylesheet" href="css/animate.css">
+
+</head>
+ <Header />
+
+      <main id = "app" class="page">
+        <Counter />
+
+                <section id="tales" class="tales">
+                    <div class="tales-top__effect">
+                        <img  src="../assets/image/effect.png" alt="">
+                    </div>
+                    <div class="tales__container _container">
+                        <div class="tales__row">
+                            <div class="tales__top tales-top">
+                                <div class="tales-top__block tales-block">
+                                    <div class="tales-top__crown">
+                                        <img src="../assets/image/croun.png" alt="">
+                                    </div>
+                                    <div class="tales-top__title">Tale of 10 000 lions</div>
+                                    <div class="tales-top__text text">
+                                        <p class="tales-top__par"><span>Welcome to our magical kingdom</span> where dreamy lions live. Nobody knows how many of them are there but the legend says that around 10 000 lions are still alive and guard mysterious treasures that none of the living people have yet been  able to see.</p>
+                                        <p class="tales-top__par">No one knows exactly when the lions appeared and where their kingdom is. Rumor says that many thousands of years ago, on the planet whose name has been lost in history; <span>robots seized power and destroyed everything alive.</span> </p>
+                                        <p class="tales-top__par">The last King before his death managed to program the computer to create an <span>army of lions-defenders to protect the kingdom</span>, but it was already too late, all of the humans have already been destroyed...</p>
+                                        <p class="tales-top__par">Computers generated 10,000 unique lions-guards who defeated the villains and protected the treasures of the kingdom. The war lasted for thousands of years and there was peace. Evil robots were ruined, and lions became the only inhabitants of the planet. Gradually, the lions found all the secret treasures that the king guarded and in his honor began to wear them on themselves.</p>
+                                    </div>
+                                </div>
+                    
+
+                            </div>
+                            <div class="tales__bottom tales-bottom ">
+                                <div class="tales-bottom__png">
+                                 
+                                    
+                                        <video class = "tales__video" src="../assets/image/Lion.mp4" width = "200px" autoplay muted loop></video>
+                   
+                                </div>
+                                <div class="tales-bottom__block tales-block">
+                                    <div class="tales-bottom__text">
+                                        <p class="">Now the lions live a normal life, they say, their kingdom is worth to visit for the <span class="pink">great shopping and parties.</span> Treasures turned into jewelry and now it’s very possible to meet a lion wearing glasses or a hat. It may seem that now days lions life is a little dizzy. But don’t worry, they still remember their history and always ready to protect the humanity and keep the treasures safe. The coolest lions were assigned into categories. This is <span class="gradient">how lions</span> <span class="gradient">SEXY, HOT, BOSS and LEGEND</span> appeared.
+                                        </p>
+                                        <p class="">Now you have an exclusive chance to meet the lions and, if you lucky, you can get a lion with a word that illustrates its characteristic and category. If you mint a few lions you can collect enough words that will show the world what kind of lion <span class="pink">YOU ARE</span>.
+                                        </p>
+                                    </div>
+                                </div>
+         
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tales__case">
+                        <img src="../assets/image/case.png" alt="">
+                    </div>
+    
+                </section>
+                <section class="lions">
+                    <div class="lions__container _container">
+                        <div class="lions__top">
+                            <div class="lions-crown">
+                                <img src="../assets/image/lions-crown.png" alt="">
+                            </div>
+                            <a class="lions__item gif de">
+                                <img src="../assets/image/lion1.png" alt="">
+                            </a>
+                            <a class="lions__item gif">
+                                <img src="../assets/image/lion2.png" alt="">
+                            </a>
+                            <a class="lions__item gif">
+                                <img src="../assets/image/lion3.png" alt="">
+                            </a>
+    
+                        </div>
+                        <div class="lions__bottom">
+                            <a class="lions__item gif">
+                                <img src="../assets/image/lion4.png" alt="">
+                            </a>
+                            <a class="lions__item gif">
+                                <img src="../assets/image/lion5.png" alt="">
+                            </a>
+                        </div>
+                    
+                    </div>
+                </section>
+                <section class="lion-1">
+        
+                        <div class="lion-1__magic">
+                            <img  src="../assets/image/magic-1.png" alt="">
+                        </div>
+                    
+                </section>
+                <section id="kinds" class="kinds">
+                     <div class="kinds__container _container">
+                        <div class="kinds__row">
+                            <div class="kinds__description">
+                                <h2 class="kinds__title gradient title">lions kinds</h2>
+                                <div class="kinds__label gradient">Royal fancy lion</div>
+                                <div class="kinds__text text">
+                                    <p>These lions still has a royal blood in their veins. They are descendants of the very lions who were the main admirals of the king’s army. </p>
+                                    <p>These lions can be found in the ancient castles, where, even today, they practice alchemy and study history in the hope of making the lion’s kingdom again the greatest kingdom of all planets. They are clever, reigning royal descendants. Each of them got education at one of the best kingdoms universities and keeps ancient knowledge safe.
+    
+                                    </p>
+                                    <p>It is not hard to guess what are the distinctive features of this lions type. Exactly this lions got the most valuable treasures of the lost nation. Precious crowns, magic wings and a lot of shiny gold and diamonds. It is not a coincidence that they call them the richest inhabitants of the Kingdom.
+                                    </p>
+                                </div>
+                            </div>
+                 
+                            <div class="kinds__image gif">
+                                <img src="../assets/image/gif8.gif" alt="">
+                            </div>
+                        </div>
+                     </div>
+                </section>
+                <section class="party">
+                    <div class="party-potion">
+                        <img  src="../assets/image/potion.png" alt="">
+                    </div>
+                    <div class="party__container _container">
+                        <div class="party__row">
+                            <div class="party__image gif">
+                                <img  src="../assets/image/gif1.gif" alt="">
+                            </div>
+                            <div class="party__description">
+                                <h2 class="party__title gold-gradient ">Party king trippy lion</h2>
+                                <div class="party__text text white">
+                                    <p>This lion kind does know how to have fun. Every weekend he hangs out in the best night clubs of the lions kingdom. He is very social, there is no rumor that he hasn’t heard. He loves techno music and doesn’t mind to mix a few tracks himself. Most time of the year you can meet this lion on some viby beaches
+                                        he knows everyone in the yard and he is as well a big female lover and fashion expert.
+                                        
+                                        </p>
+                                    <p>How can u define this lion from others? That is a very easy question. This lion most likely gonna wear a hat with some fun prints, has something like a joint in his mouth and wears some dope glasses.
+    
+                                    </p>
+                                    <p>But don’t let his look to fool you. Years and years ago lions of exactly this kind were scouts who learned all the enemies secrets first and used to be Kings personal Assassins. They were cunning and merciless spies. Only the smartest and strongest lions could get into their squads.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="party-star">
+                        <img  src="../assets/image/star.png" alt="">
+                    </div>
+                    <div class="party-vawes">
+                        <img  src="../assets/image/vawes.png" alt="">
+                    </div>
+                    <div class="party-stars">
+                        <img  src="../assets/image/stars.png" alt="">
+                    </div>
+                </section>
+                <section class="steampunk">
+                    <div class="steampunk__container _container">
+                        <div class="steampunk__row">
+                            <div class="steampunk__description">
+                                <h2 class="steampunk__title gold-gradient title">Steampunk dreamy lion</h2>
+                                <div class="steampunk__text text">
+                                    <p>These lions love to travel around the Kingdom in a huge dirigibles and steam engines. These lions are always inventing something new, they love an adventure and don’t mind getting involved in some dangerous mess. </p>
+                                    <p>These lions are real treasure hunters. They collect missing items and magical artifacts in an attempt to solve the mysteries of the universe and, of course, to get rich. Usually these lions are not difficult to recognize. </p>
+                                    <p>Many of them have problems with the law and prefer to hide their faces behind a mask. Their eyes are also hidden by carved goggles, and some of them have wings behind their backs.</p>
+                                </div>
+                            </div>
+                            <div class="steampunk__image gif">
+                                <img  src="../assets/image/gif7.gif" alt="">
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="treasures">
+                        <img  src="../assets/image/treasures.png" alt="">
+                    </div>
+                    <div class="money">
+                        <img  src="../assets/image/money.png" alt="">
+                    </div>
+                </section>
+                <section id="roadmap" class="roadmap">
+                    <div class="roadmap__description">
+                        <h2 class="roadmap__title gold-gradient title">Roadmap to the lions kingdom </h2>
+                        <div class="roadmap__label">
+                            <h3 class="roadmap__sub-title ">Be the first one!!
+                            </h3>
+                            <div class="roadmap__sub-text">This is a very first generation of our legendary lions and we can’t promise it will be more of them in the future.
+                                So don’t miss your chance.</div>
+                        </div>
+                        <div class="roadmap__item">
+                            <h4 class="roadmap__item-title"> 1. What you’ll get, you ask?
+                            </h4>
+                            <div class="roadmap__item-text">Monthly exclusive access to our newest NFT drops!
+                                Yes, you read it right. All holders of our first generation of lions will have an exclusive access to any NFT drops we do in the future.
+                                 </div>
+                        </div>
+                        <div class="roadmap__item">
+                            <h4 class="roadmap__item-title"> 2. Real lions community:
+                            </h4>
+                            <div class="roadmap__item-text"> Once we sold 50% of our collection we will creat a community that will only be available for lions holders. 
+                                It will be a community of a special people who wants to share their uniqueness and weirdness. Exactly there you will get an exclusive offers for our next drops. And you will get to directly communicate with an artist.
+                                </div>
+                        </div>
+                        <div class="roadmap__item">
+                            <h4 class="roadmap__item-title">3. Three crazy ruffles: </h4>
+                            <div class="roadmap__item-text"> Only 3 times we will kick off a ruffle for our community members to win a very unique lion created especially for the ruffle. It will be the most rare lions from all. And trust us it will be beautiful.</div>
+                        </div>
+                        <div class="roadmap__item">
+                            <h4 class="roadmap__item-title">4. 20% royalty bonus for holders </h4>
+                            <div class="roadmap__item-text">20% of the value of each resale under a smart contract is distributed among the ethereum wallets of lions NFT holders
+                            </div>
+                        </div>
+                        <div class="roadmap__item">
+                            <h4 class="roadmap__item-title"> 5. Exclusive metaverse exhibition:</h4>
+                            <div class="roadmap__item-text">We will prepare all our holders lions in 3D for Metaverse. We promise that by the year 2023 we will be running the most known contemporary NFTs museum on our Metaverse land.  If you are a holder of the rarest YOU ARE lions you will have an exclusive right to exhibit your piece free of charge and have ur exhibition promoted on our platforms.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="lion-3">
+                    <div class="lion-2__book">
+                        <img  src="../assets/image/book.png" alt="">
+                    </div>
+                </section>
+                <section id="why" class="why">
+                    <div class="why__row">
+                        <h3 class="why__title">Why to buy</h3>
+                        <div class="why__label">Why getting a piece of  YOU ARE LION?</div>
+                        <div class="why__text">
+                            <p>The most valid reason is to have a collection of pictures from which you can express yourself and become a part of our sexy lion’s kingdom. 
+    
+                            </p>
+                            <p>All the pictures designed and created by the titled best young Russian visual artist (2016)  Yaroslav Levchenko. 
+    
+                            </p>
+                            <p>In this project he has combined academic principles of classical art composition and the main trends of modern digital art. 
+    
+                            </p>
+                            <p>So it’s not just an NFT but a real art made by the real artist followed by all the rules that makes art to be art. </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="lion-2">
+                    <div class="lion-3__bank">
+                        <img  src="../assets/image/bank.png" alt="">
+                    </div>
+                    <div class="counter__wallet lion-2-wallet">
+                        <a href="">Connect wallet</a>
+                    </div>
+                </section>
+                <section id="faq" class="faq">
+                    <div class="faq__container _container">
+                        <div class="faq__row">
+                            <div class="faq__logo">
+                                <img  src="../assets/image/logo.png" alt="">
+                            </div>
+                            <div class="faq_dialogs faq-diolag-1 wow fadeInDown"  v-wow data-wow-delay="0.2s" data-wow-duration="2s" >
+                                <div class="faq__dialog-pink">Q: Website link?</div>
+                                <div class="faq__dialog-yellow">A: You are now on our official website. 
+    
+                                    As well you can check our Twitter for the latest updates @NFTyouare</div>
+                            </div>
+                            <div class="faq_dialogs faq-diolag-2  fadeInDown"  v-wow data-wow-delay="0.2s" data-wow-duration="2s">
+                                <div class="faq__dialog-pink">Q: How do I get Early YOU ARE LION role</div>
+                                <div class="faq__dialog-yellow">A: First 500 members of our Discord server will get it.</div>
+                            </div>
+                            <div class="faq_dialogs faq-diolag-3  fadeInDown"  v-wow data-wow-delay="0.2s" data-wow-duration="2s"> 
+                                <div class="faq__dialog-pink">Q: Wen Mint?</div>
+                                <div class="faq__dialog-yellow">A: Early October</div>
+                            </div>
+                            <div class="faq_dialogs faq-diolag-4  fadeInDown">
+                                <div class="faq__dialog-pink">Q: Website link?</div>
+                                <div class="faq__dialog-yellow">A:you are now on our official website</div>
+                            </div>
+                            <div class="faq_dialogs faq-diolag-5  fadeInDown">
+                                <div class="faq__dialog-pink">Q: Mint price?</div>
+                                <div class="faq__dialog-yellow">A: 0.09 eth</div>
+                            </div>
+                            <div class="faq_dialogs faq-diolag-6">
+                                <div class="faq__dialog-pink">Q: How many YOU ARE LIONS per transaction?</div>
+                                <div class="faq__dialog-yellow">A: 10 k</div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </section>
+                <section id="team" class="team">
+                    <div class="team__row">
+                        <div class="team__image">
+                            <img  src="../assets/image/team.png" alt="">
+                        </div>
+                        <div class="team__description">
+                            <h3 class="team__title gold-gradient">Team</h3>
+                            <div class="team__text ">Who are your lions?
+                                We are a team of 10 weirdos leaded by the world known artist 
+                                <span class="gold-gradient">Yaroslav Levchenko</span>. You will be amazed but literally all the pieces was created by Yaroslav himself. Yep! <span class="gold-gradient">Every little detail.</span> So if you buy our item you can be sure that’s an art that will be appreciated by any art expert in both digital and physical worlds.
+                                </div>
+                        </div>
+                        <div class="team__hands">
+                            <img  src="../assets/image/hands.png" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section id="contacts" class="contacts">
+                    <div class="contacts__container _container">
+                        <div class="contacts__row">
+                            <h2 class="contacts__title gold-gradient">Сontacts</h2>
+                            <div class="contacts__links">
+                                <a class = "discord" href="">
+                                    <img  src="../assets/image/discord.png" alt="">
+                                </a>
+                                <a class = "twitter" href="">
+                                    <img  src="../assets/image/twitter.png" alt="">
+                                </a>
+                                <a class = "instagram" href="">
+                                    <img  src="../assets/image/instagram.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+      </main>      
+    </div>
   </div>
 </template>
 
 <script>
+
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import  Counter from '@/components/Counter.vue'
+import  Header from '@/components/Header.vue'
+
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+
+  components:{
+    Counter,
+    Header,
+    
   }
 }
+
+
+
 </script>
+
+
+
